@@ -1,0 +1,11 @@
+Thời điểm xảy ra lỗi: 10:37:32 AM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=126.0.6478.62)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Clear()
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_SEND_MESSAGE_ZALO_TELE_ADAVIGO\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 115
+-------------------------------------------

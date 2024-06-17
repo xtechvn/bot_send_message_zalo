@@ -1,0 +1,13 @@
+Thời điểm xảy ra lỗi: 09:21:22 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 93
+-------------------------------------------

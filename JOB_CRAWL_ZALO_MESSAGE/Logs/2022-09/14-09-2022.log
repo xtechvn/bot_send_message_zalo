@@ -1,0 +1,7 @@
+Thời điểm xảy ra lỗi: 10:29:29 AM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: System.ArgumentNullException: Cannot find elements when the XPath expression is null.
+Parameter name: xpathToFind
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context)
+-------------------------------------------

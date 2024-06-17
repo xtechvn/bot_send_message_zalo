@@ -1,0 +1,31 @@
+Thời điểm xảy ra lỗi: 07:54:27 AM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=126.0.6478.62)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Clear()
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_SEND_MESSAGE_ZALO_TELE_ADAVIGO\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 105
+-------------------------------------------
+Thời điểm xảy ra lỗi: 08:34:51 AM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=126.0.6478.62); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_SEND_MESSAGE_ZALO_TELE_ADAVIGO\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 124
+-------------------------------------------
+Thời điểm xảy ra lỗi: 08:48:04 AM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.62)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context)
+-------------------------------------------

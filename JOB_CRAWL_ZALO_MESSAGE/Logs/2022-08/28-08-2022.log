@@ -1,0 +1,175 @@
+Thời điểm xảy ra lỗi: 03:26:55 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'group-item-')]"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 57
+-------------------------------------------
+Thời điểm xảy ra lỗi: 03:52:37 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'group-item-')]"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 58
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:07:17 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'group-item-')]"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 58
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:08:16 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 83
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:13:36 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: System.ArgumentNullException: Cannot find elements when the XPath expression is null.
+Parameter name: xpathToFind
+   at OpenQA.Selenium.By.XPath(String xpathToFind)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context)
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:31:59 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 94
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:02 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:05 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:05 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:07 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:07 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:07 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:32:13 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:34:29 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='contact-search-input']"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 55
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:34:47 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'group-item-')]"}
+  (Session info: chrome=104.0.5112.102)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 59
+-------------------------------------------
+Thời điểm xảy ra lỗi: 04:35:29 PM
+Hàm/Phương thức sinh lỗi: IJob.Execute()
+Chi tiết lỗi: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at JOB_CRAWL_MESSAGE_ZALO.ZaloJobCrawler.Quartz.IJob.Execute(IJobExecutionContext context) in F:\PROJECT\APP_TELEGRAM\APP_TELEGRAM\JOB_CRAWL_ZALO_MESSAGE\ZaloJobCrawler.cs:line 94
+-------------------------------------------
